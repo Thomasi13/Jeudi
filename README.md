@@ -1,3 +1,11 @@
+Collaborateurs : 
+Thomas Iatrou
+Antoine Litaisse
+
+Date:
+12.07.2018
+
+
 *** LOCAL GEMS ***
 
 actioncable (5.2.0)

@@ -1,5 +1,5 @@
 Collaborateurs : 
-Thomas Iatrou
+Thomas Iatrou &
 Antoine Litaisse
 
 Date:

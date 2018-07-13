@@ -30,10 +30,9 @@ def get_the_email_of_a_townhal_from_its_webpage (liens)
      @list_adress << node.text
      @array_town << @list_town
 
-
+     puts Hash[@array_town.zip(@list_adress)]
    end
 end
 
 
 get_all_the_urls_of_val_doise_townhalls
-puts Hash[@array_town.zip(@list_adress)]

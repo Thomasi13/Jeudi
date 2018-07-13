@@ -22,14 +22,18 @@ end
 
 def get_the_email_of_a_townhal_from_its_webpage (liens)
 
+   @array_town = []
+   @list_adress = []
+
    page = Nokogiri::HTML(open("http://annuaire-des-mairies.com/"+liens))
    page.xpath('/html/body/div/main/section[2]/div/table/tbody/tr[4]/td[2]').each do |node|node.text
-     @list_adress = node.text
+     @list_adress << node.text
+     @array_town << @list_town
 
-      puts "La Mairie de la commune #{@list_town} :#{@list_adress}"
 
    end
 end
 
 
 get_all_the_urls_of_val_doise_townhalls
+puts Hash[@array_town.zip(@list_adress)]

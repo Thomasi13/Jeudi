@@ -5,6 +5,11 @@ Antoine Litaisse
 Date:
 12.07.2018
 
+Exercices de scrapping
+1- Récupérer l'adresse email des Mairies du Val-d'Oise
+2- Récupérer la devise et la valeur des cryptomonnaies chaque heure
+3- Récupéerer le nom / prénom et adresse email de chaque députés de l'Assemblé Nationale
+
 
 *** LOCAL GEMS ***
 
